@@ -68,7 +68,7 @@ const Navbar = ({ setSearchResults ,  isLoggedIn}) => {
     try {
       // Make a request to your backend endpoint to clear the user session/token
       // For example:
-      await axios.post('http://localhost:8080/auth/logout');
+      await axios.post('https://devtown-backend-31i3.onrender.com/auth/logout');
       
       // Clear local storage or perform any necessary cleanup
       localStorage.removeItem('token');

@@ -76,7 +76,7 @@ function Signup() {
     e.preventDefault();
    console.log(process.env.REACT_APP_API);
     try {
-      const response = await axios.post("http://localhost:8080/auth/signup", {
+      const response = await axios.post("https://devtown-backend-31i3.onrender.com/auth/signup", {
         name,
         email,
         password,
